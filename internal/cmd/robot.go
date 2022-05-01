@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/urfave/cli"
 
-	"github.com/midoks/vez/internal/robot"
+	"github.com/midoks/vez-en/internal/robot"
 )
 
 var Robot = cli.Command{

@@ -3,7 +3,7 @@ package logs
 import (
 	"fmt"
 
-	"github.com/midoks/vez/internal/conf"
+	"github.com/midoks/vez-en/internal/conf"
 	go_logger "github.com/phachon/go-logger"
 )
 

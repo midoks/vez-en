@@ -14,13 +14,12 @@ import (
 	"github.com/flamego/flamego"
 	"github.com/flamego/template"
 
-	"github.com/midoks/vez/internal/conf"
-	"github.com/midoks/vez/internal/context"
-	"github.com/midoks/vez/internal/router"
-	"github.com/midoks/vez/internal/tmpl"
-	"github.com/midoks/vez/internal/tools"
-
-	"github.com/midoks/vez/internal/assets/public"
+	"github.com/midoks/vez-en/internal/assets/public"
+	"github.com/midoks/vez-en/internal/conf"
+	"github.com/midoks/vez-en/internal/context"
+	"github.com/midoks/vez-en/internal/router"
+	"github.com/midoks/vez-en/internal/tmpl"
+	"github.com/midoks/vez-en/internal/tools"
 )
 
 var Service = cli.Command{

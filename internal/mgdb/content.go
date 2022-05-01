@@ -10,7 +10,7 @@ import (
 	"github.com/qiniu/qmgo/operator"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 
-	"github.com/midoks/vez/internal/tools"
+	"github.com/midoks/vez-en/internal/tools"
 )
 
 type Content struct {

@@ -8,8 +8,8 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/ini.v1"
 
-	"github.com/midoks/vez/internal/assets/conf"
-	"github.com/midoks/vez/internal/tools"
+	"github.com/midoks/vez-en/internal/assets/conf"
+	"github.com/midoks/vez-en/internal/tools"
 )
 
 // Asset is a wrapper for getting conf assets.

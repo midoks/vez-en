@@ -7,7 +7,7 @@ import (
 	"github.com/flamego/flamego"
 	"github.com/flamego/template"
 
-	"github.com/midoks/vez/internal/mgdb"
+	"github.com/midoks/vez-en/internal/mgdb"
 )
 
 var mg []mgdb.ContentBid

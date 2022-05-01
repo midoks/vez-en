@@ -8,8 +8,8 @@ import (
 	"github.com/antchfx/htmlquery"
 	"github.com/gocolly/colly"
 
-	"github.com/midoks/vez/internal/lazyregexp"
-	"github.com/midoks/vez/internal/mgdb"
+	"github.com/midoks/vez-en/internal/lazyregexp"
+	"github.com/midoks/vez-en/internal/mgdb"
 )
 
 const (

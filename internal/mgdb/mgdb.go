@@ -7,7 +7,7 @@ import (
 	"github.com/qiniu/qmgo/options"
 	"go.mongodb.org/mongo-driver/bson"
 
-	"github.com/midoks/vez/internal/conf"
+	"github.com/midoks/vez-en/internal/conf"
 )
 
 var (

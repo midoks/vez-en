@@ -7,11 +7,11 @@ import (
 
 	"gopkg.in/ini.v1"
 
-	"github.com/midoks/vez/internal/conf"
-	"github.com/midoks/vez/internal/context"
-	"github.com/midoks/vez/internal/logs"
-	"github.com/midoks/vez/internal/mgdb"
-	"github.com/midoks/vez/internal/tools"
+	"github.com/midoks/vez-en/internal/conf"
+	"github.com/midoks/vez-en/internal/context"
+	"github.com/midoks/vez-en/internal/logs"
+	"github.com/midoks/vez-en/internal/mgdb"
+	"github.com/midoks/vez-en/internal/tools"
 )
 
 func autoMakeCustomConf(customConf string) error {
