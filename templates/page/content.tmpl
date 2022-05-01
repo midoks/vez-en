@@ -1,0 +1,26 @@
+{{template "base/header" .}}
+
+
+
+<div class="container">
+{{/* start */}}
+  <div class="row g-5">
+    <div class="col-md-8">
+      <h3 class="pb-4 mb-4 border-bottom">
+        {{.Article.Title | Safe}}
+      </h3>
+
+      <article class="blog-post">
+        {{.Article.Html | ParseHtml}}
+      </article>
+
+    </div>
+
+    <div class="col-md-4">
+      {{template "sidebar/sidebar" .}}
+  </div>
+
+{{/* end */}}
+</div>
+
+{{template "base/footer" .}}
