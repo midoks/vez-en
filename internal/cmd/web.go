@@ -2,17 +2,17 @@ package cmd
 
 import (
 	// "fmt"
-	"net/http"
-	_ "net/http/pprof"
 	"path/filepath"
 	"strings"
 	"time"
 
-	"github.com/urfave/cli"
+	"net/http"
+	_ "net/http/pprof"
 
 	"github.com/flamego/brotli"
 	"github.com/flamego/flamego"
 	"github.com/flamego/template"
+	"github.com/urfave/cli"
 
 	"github.com/midoks/vez-en/internal/assets/public"
 	"github.com/midoks/vez-en/internal/conf"
@@ -84,6 +84,7 @@ func runWebService(c *cli.Context) error {
 			if pingUrl != "" {
 				r, err := tools.GetHttpData(pingUrl)
 
+				// fmt.Println(pingUrl, r, err)
 				if err != nil {
 					conf.Image.PingStatus = false
 				}
@@ -93,6 +94,8 @@ func runWebService(c *cli.Context) error {
 					conf.Image.PingStatus = true
 				}
 			}
+
+			// fmt.Println("conf.Image.PingStatus:", conf.Image.PingStatus)
 			time.Sleep(time.Second * 25)
 		}
 	}()

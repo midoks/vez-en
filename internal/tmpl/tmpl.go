@@ -53,6 +53,7 @@ func Safe(original string) template.HTML {
 }
 
 func ParseHtml(original string) template.HTML {
+
 	if conf.Image.PingStatus {
 
 		prefix := conf.Image.Addr
