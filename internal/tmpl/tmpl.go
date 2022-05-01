@@ -13,8 +13,8 @@ import (
 
 	"github.com/antchfx/htmlquery"
 	strip "github.com/grokify/html-strip-tags-go"
-
 	"github.com/microcosm-cc/bluemonday"
+
 	"github.com/midoks/vez-en/internal/conf"
 )
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/midoks/vez/internal/cmd"
-	"github.com/midoks/vez/internal/conf"
+	"github.com/midoks/vez-en/internal/cmd"
+	"github.com/midoks/vez-en/internal/conf"
 )
 
 const Version = "0.0.1"

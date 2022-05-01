@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/midoks/vez/internal/assets"
+	"github.com/midoks/vez-en/internal/assets"
 )
 
 //go:generate go-bindata -nomemcopy -nometadata -pkg=public -ignore="\\.DS_Store|less" -prefix=../../../public -debug=false -o=public_gen.go ../../../public/...

@@ -9,8 +9,8 @@ import (
 	"github.com/flamego/template"
 	"github.com/qiniu/qmgo/operator"
 
-	"github.com/midoks/vez/internal/mgdb"
-	"github.com/midoks/vez/internal/robot"
+	"github.com/midoks/vez-en/internal/mgdb"
+	"github.com/midoks/vez-en/internal/robot"
 )
 
 const PAGE_NUM = 15

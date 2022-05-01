@@ -14,7 +14,7 @@ import (
 
 	"gopkg.in/macaron.v1"
 
-	"github.com/midoks/vez/internal/tools"
+	"github.com/midoks/vez-en/internal/tools"
 )
 
 //go:generate go-bindata -nomemcopy -nometadata -ignore="\\.DS_Store" -pkg=templates -prefix=../../../templates -debug=false -o=templates_gen.go ../../../templates/...
