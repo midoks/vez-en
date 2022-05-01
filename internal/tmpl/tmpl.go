@@ -1,11 +1,9 @@
 package tmpl
 
 import (
+	"encoding/base64"
 	"fmt"
 	"html/template"
-	// "mime"
-	// "path/filepath"
-	"encoding/base64"
 	"strconv"
 	"strings"
 	"sync"
