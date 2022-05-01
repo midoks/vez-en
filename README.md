@@ -10,5 +10,4 @@ curl -fsSL  https://raw.githubusercontent.com/midoks/vez-en/main/scripts/install
 
 ```
 curl -fsSL  https://raw.githubusercontent.com/midoks/vez-en/main/scripts/install_dev.sh | sh
-curl -fsSL  https://raw.githubusercontent.com/midoks/vez-en/main/scripts/install_webp.sh | sh
 ```
