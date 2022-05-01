@@ -26,6 +26,7 @@ type Content struct {
 }
 
 type ContentBid struct {
+	MgID       string    `bson:"_id"`
 	Url        string    `bson:"url"`
 	Source     string    `bson:"source"`
 	User       string    `bson:"user"`
@@ -35,8 +36,6 @@ type ContentBid struct {
 	Length     int       `bson:"length"`
 	Updatetime time.Time `bson:"updatetime" json:"updatetime"`
 	Createtime time.Time `bson:"createtime" json:"createtime"`
-
-	MgID string `bson:"_id"`
 }
 
 func ContentAdd(data Content) (result *qmgo.InsertOneResult, err error) {

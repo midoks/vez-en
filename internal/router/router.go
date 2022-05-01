@@ -112,7 +112,7 @@ func Rand(c flamego.Context, t template.Template, data template.Data) {
 		return
 	}
 
-	url := "/" + d.Source + "/" + d.User + "/" + d.Id + ".html"
+	url := "/html/" + d.MgID + ".html"
 	c.Redirect(url)
 }
 
