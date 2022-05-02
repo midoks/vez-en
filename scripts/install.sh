@@ -33,7 +33,7 @@ func main() { fmt.Println(runtime.GOARCH) }" > /tmp/go_arch.go
 }
 
 get_download_url() {
-	DOWNLOAD_URL="https://github.com/midoks/{$APP_NAME}/releases/download/$VERSION/{$APP_NAME}_${VERSION}_${OS}_${ARCH}.tar.gz"
+	DOWNLOAD_URL="https://github.com/midoks/{$APP_NAME}/releases/download/$VERSION/${APP_NAME}_${VERSION}_${OS}_${ARCH}.tar.gz"
 }
 
 # download file
@@ -84,9 +84,9 @@ main() {
 	bash make.sh
 
 	systemctl daemon-reload
-	service dagger restart
+	service vez-en restart
 
-	cd .. && ./dagger-server -v	
+	cd .. && ./vez-en -v	
 	popd >/dev/null 2>&1
 }
 
